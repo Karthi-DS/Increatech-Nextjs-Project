@@ -41,7 +41,7 @@ export default function Home() {
             </div>
           )):"No Tickets to display"
         }
-        <button className="addTask" onClick={pushToAddTask}>Add <br /> Task</button>
+        <button className="addTask" onClick={pushToAddTask}>Add <br />Task</button>
     </>
   )
 }
