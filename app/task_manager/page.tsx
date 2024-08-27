@@ -22,8 +22,8 @@ export default function Home() {
       setLoading(true)
       try {
         const response = await axios.get("http://localhost:3000/api/getTasks/");
-        const TicketData = response.data.data;
-        setTasks(TicketData);
+        const TaskData = response.data.data;
+        setTasks(TaskData);
       } catch (error) {
         console.error('Error fetching data:', error);
       } finally{
