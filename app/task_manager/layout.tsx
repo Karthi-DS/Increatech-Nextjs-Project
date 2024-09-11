@@ -1,5 +1,5 @@
 import React from 'react'
-import Providers from '../_components/providers'
+import Providers from '../_components/providers/Providers'
 
 const layout = ({children}:{children:React.ReactNode}) => {
   return (

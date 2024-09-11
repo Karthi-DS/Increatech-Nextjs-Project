@@ -1,9 +1,9 @@
 //"use client";
-import Form from "../_components/form";
+import SignUp from "../_forms/SignUpForm";
 
 export default async function Home() {
   return(
-      <Form/>
+      <SignUp/>
   )
 }
 

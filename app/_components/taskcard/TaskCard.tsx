@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import DeleteBlock from "./DeleteBlock";
 import PriorityDisplay from "./PriorityDisplay";
-import "../globals.css";
+import "../../globals.css";
 import { useRouter } from "next/navigation";
 import { useDispatch } from "react-redux";
-import { addTask } from "../taskSlice";
+import { addTask } from "../taskstore/TaskSlice";
 
 const TaskCard = ({ task }: { task: any }) => {
 

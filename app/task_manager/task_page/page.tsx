@@ -1,5 +1,5 @@
 import React from 'react'
-import TaskForm from '../../_components/TaskForm'
+import TaskForm from '../../_forms/TaskForm'
 
 const page = () => {
   // const {taskId} = task

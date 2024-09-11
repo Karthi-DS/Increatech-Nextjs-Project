@@ -1,11 +1,11 @@
 "use client";
 import React from 'react'
 import { Provider } from 'react-redux'
-import { taskStore } from '../taskStore'
+import { TaskStore } from '../taskstore/TaskStore'
 
 const Providers = ({children}:{children:React.ReactNode}) => {
   return (
-    <Provider store={taskStore}>
+    <Provider store={TaskStore}>
         {children}
     </Provider>
   )
